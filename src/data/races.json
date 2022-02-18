@@ -1,0 +1,22 @@
+[
+  {
+    "track": "Daytona 500",
+    "picks": [
+      {
+        "cousin": "Wyatt",
+        "driver": "Kyle Larson",
+        "points": 65
+      },
+      {
+        "cousin": "Ryan",
+        "driver": "Kyle Busch",
+        "points": 25
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Keselowski",
+        "points": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "nascar",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "gridsome": "^0.7.0",
+    "vuetify": "^2.6.3"
+  },
+  "devDependencies": {
+    "deepmerge": "^4.2.2",
+    "fibers": "^5.0.1",
+    "sass": "^1.49.8",
+    "sass-loader": "7.3.1",
+    "vuetify-loader": "^1.7.3"
+  }
+}
