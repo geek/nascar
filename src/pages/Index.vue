@@ -11,6 +11,7 @@
         <v-list-item
           v-for="cousin in cousins"
           :key="cousin.name"
+          :href="cousin.link"
           link
         >
           <v-list-item-icon>
@@ -31,7 +32,7 @@
       <v-toolbar-title>Nascar Racing</v-toolbar-title>
     </v-app-bar>
 
-    <v-main class="mt-10">
+    <v-main>
       <v-data-table
         :headers="headers"
         :items="items"
@@ -56,7 +57,7 @@ import races from '@/data/races.json'
 
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Nascar Pool'
   },
   data() {
     let lastRace = races[0]
@@ -83,10 +84,13 @@ export default {
 
       return {
         name: cousin,
-        icon: 'mdi-link'
+        icon: 'mdi-link',
+        link: '/stats/' + cousin
       }
     })
 
+    const home = [{ name: 'home', link: "/", icon: 'mdi-link' }]
+    cousins = home.concat(cousins)
 
     return {
       cousins,

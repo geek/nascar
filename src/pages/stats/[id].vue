@@ -29,7 +29,7 @@
 
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Nascar Racing</v-toolbar-title>
+      <v-toolbar-title>Nascar Racing {{ $route.params.cousin }} </v-toolbar-title>
     </v-app-bar>
 
     <v-main>
@@ -38,12 +38,12 @@
         :items="items"
         class="elevation-1"
       >
-        <template v-slot:item.total="{ item }">
+        <template v-slot:item.points="{ item }">
           <v-chip
-            :color="getColor(item.total)"
+            :color="getColor(item.points)"
             dark
           >
-            {{ item.total }}
+            {{ item.points }}
           </v-chip>
         </template>
       </v-data-table>
@@ -57,51 +57,44 @@ import races from '@/data/races.json'
 
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Stats'
   },
   data() {
+    const { id } = this.$route.params
     let lastRace = races[0]
-    let items = []
     let cousins = lastRace.picks.map((pick) => {
       let cousin = pick.cousin
-      let total = 0
-
-      races.forEach((race) => {
-        race.picks.forEach((p) => {
-          if (p.cousin == cousin) {
-            total += p.points
-          }
-        })
-      })
-
-      items.push({
-        cousin,
-        total,
-        points: pick.points,
-        current_pick: pick.driver,
-        track: lastRace.track
-      })
 
       return {
         name: cousin,
         icon: 'mdi-link',
-        link: '/stats?cousin=' + cousin
+        link: '/stats/' + cousin
       }
     })
 
-    let cousins2 = [{ name: 'home', link: "/", icon: 'mdi-home' }].concat(cousins)
+    let items = races.map((race) => {
+      let cousinPick = race.picks.find((pick) => {
+        return pick.cousin === id
+      })
+
+      return {
+        track: race.track,
+        driver: cousinPick.driver,
+        points: cousinPick.points
+      }
+    })
+
+    console.log(races)
+    console.log(id)
+
+    const home = [{ name: 'home', link: "/", icon: 'mdi-link' }]
+    cousins = home.concat(cousins)
 
     return {
-      cousins: cousins2,
+      cousins,
       headers: [
-          {
-            text: 'Cousin',
-            align: 'start',
-            value: 'cousin',
-          },
-          { text: 'Cumulative Points', value: 'total' },
           { text: 'Race Points', value: 'points' },
-          { text: 'Driver', value: 'current_pick' },
+          { text: 'Driver', value: 'driver' },
           { text: 'Track', value: 'track' },
         ],
       items,
@@ -110,10 +103,10 @@ export default {
   },
   methods: {
       getColor (points) {
-        if (points > 800) return 'red'
-        else if (points > 400) return 'orange'
-        else if (points > 200) return 'yellow'
-        else if (points > 100) return 'purple'
+        if (points > 60) return 'red'
+        else if (points > 50) return 'orange'
+        else if (points > 30) return 'yellow'
+        else if (points > 20) return 'purple'
         else return 'brown'
       },
     },
