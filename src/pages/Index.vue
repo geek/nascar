@@ -47,7 +47,7 @@
           </v-chip>
         </template>
         <template v-slot:item.cousin="{ item }">
-          <g-link :to="'/stats?id=' + item.cousin">{{ item.cousin }}</g-link>
+          <g-link :to="item.cousin.toLowerCase()">{{ item.cousin }}</g-link>
         </template>
       </v-data-table>
     </v-main>
@@ -89,7 +89,7 @@ export default {
       return {
         name: cousin,
         icon: 'mdi-link',
-        link: process.env.GRIDSOME_BASE_URL + '/stats?id=' + cousin
+        link: process.env.GRIDSOME_BASE_URL + '/' + cousin.toLowerCase()
       }
     })
 

@@ -34,6 +34,7 @@
 
     <v-main>
       <v-container class="pl-0 ml-2 mt-5 mr-0 pr-0">
+        <ClientOnly>
         <v-row>
           <v-col>
             <apexchart width="100%" type="line" height="400px" :options="points.options" :series="points.series"></apexchart>
@@ -42,6 +43,7 @@
             <apexchart width="100%" type="bar" height="400px" :options="df.options" :series="df.series"></apexchart>
           </v-col>
         </v-row>
+        </ClientOnly>
         <v-row>
           <v-col>
             <v-data-table
@@ -75,7 +77,7 @@ export default {
     title: 'Stats'
   },
   data() {
-    const id = this.$route.query.id.toLowerCase()
+    const id = 'jesse';
     let cousin = id[0].toUpperCase() + id.substr(1)
     let lastRace = races[0]
     let points = {
@@ -134,7 +136,7 @@ export default {
       return {
         name: cousin,
         icon: 'mdi-link',
-        link: process.env.GRIDSOME_BASE_URL + '/stats?id=' + cousin
+        link: process.env.GRIDSOME_BASE_URL + '/' + cousin.toLowerCase()
       }
     })
 
