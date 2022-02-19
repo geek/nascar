@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Nascar Pool',
   siteUrl: 'https://geek.github.io',
   pathPrefix: '/nascar',
   plugins: []

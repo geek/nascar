@@ -46,6 +46,9 @@
             {{ item.total }}
           </v-chip>
         </template>
+        <template v-slot:item.cousin="{ item }">
+          <g-link :to="'/stats?id=' + item.cousin">{{ item.cousin }}</g-link>
+        </template>
       </v-data-table>
     </v-main>
   </v-app>
@@ -79,17 +82,18 @@ export default {
         total,
         points: pick.points,
         current_pick: pick.driver,
-        track: lastRace.track
+        track: lastRace.track,
+        date: lastRace.date
       })
 
       return {
         name: cousin,
         icon: 'mdi-link',
-        link: '/stats/' + cousin
+        link: process.env.GRIDSOME_BASE_URL + '/stats?id=' + cousin
       }
     })
 
-    const home = [{ name: 'home', link: "/", icon: 'mdi-link' }]
+    const home = [{ name: 'Home', link: process.env.GRIDSOME_BASE_URL, icon: 'mdi-link' }]
     cousins = home.concat(cousins)
 
     return {
@@ -104,6 +108,7 @@ export default {
           { text: 'Race Points', value: 'points' },
           { text: 'Driver', value: 'current_pick' },
           { text: 'Track', value: 'track' },
+          { text: 'Date', value: 'date' },
         ],
       items,
       drawer: null

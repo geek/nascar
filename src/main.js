@@ -3,6 +3,7 @@
 
 import Vuetify from 'vuetify/lib/framework';
 import 'vuetify/dist/vuetify.min.css';
+import VueApexCharts from 'vue-apexcharts'
 
 export default function (Vue, { appOptions, head }) {
   head.link.push({
@@ -19,5 +20,7 @@ export default function (Vue, { appOptions, head }) {
     theme: { dark: true },
   }; // opts includes, vuetify themes, icons, etc.
   Vue.use(Vuetify);
+  Vue.use(VueApexCharts)
+  Vue.component('apexchart', VueApexCharts)
   appOptions.vuetify = new Vuetify(opts);
 }
