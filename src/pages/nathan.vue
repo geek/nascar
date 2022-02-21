@@ -35,10 +35,20 @@
     <v-main>
       <v-container class="pl-0 ml-2 mt-5 mr-0 pr-0">
         <ClientOnly>
-        <v-row>
+        <v-row class="hidden-sm-and-down">
           <v-col>
             <apexchart width="100%" type="line" height="400px" :options="points.options" :series="points.series"></apexchart>
           </v-col>
+          <v-col>
+            <apexchart width="100%" type="bar" height="400px" :options="df.options" :series="df.series"></apexchart>
+          </v-col>
+        </v-row>
+        <v-row class="hidden-md-and-up">
+          <v-col>
+            <apexchart width="100%" type="line" height="400px" :options="points.options" :series="points.series"></apexchart>
+          </v-col>
+        </v-row>
+        <v-row class="hidden-md-and-up">
           <v-col>
             <apexchart width="100%" type="bar" height="400px" :options="df.options" :series="df.series"></apexchart>
           </v-col>
@@ -87,6 +97,7 @@ export default {
           theme: 'dark',
         },
         chart: {
+          toolbar: { show: false },
           id: 'points',
           foreColor: '#fff'
         },
@@ -116,6 +127,7 @@ export default {
         },
         chart: {
           id: 'picks',
+          toolbar: { show: false },
           foreColor: '#fff'
         },
         dataLabels: {

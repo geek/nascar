@@ -1,67 +1,43 @@
 [
   {
-    "track": "Auto Club 400",
-    "date": "Feb 27, 2022",
-    "picks": [
-      {
-        "cousin": "Wyatt",
-        "driver": "Larson",
-        "points": 75,
-        "position": 1
-      },
-      {
-        "cousin": "Ryan",
-        "driver": "Kyle Busch",
-        "points": 25,
-        "position": 2
-      },
-      {
-        "cousin": "Tyler",
-        "driver": "Keselowski",
-        "points": 0,
-        "position": 17
-      },
-      {
-        "cousin": "Jared",
-        "driver": "Larson",
-        "points": 75,
-        "position": 1
-      },
-      {
-        "cousin": "Jesse",
-        "driver": "Larson",
-        "points": 75,
-        "position": 1
-      },
-      {
-        "cousin": "Nathan",
-        "driver": "Larson",
-        "points": 75,
-        "position": 1
-      }
-    ]
-  },
-  {
     "track": "Daytona 500",
     "date": "Feb 20, 2022",
     "picks": [
       {
-        "cousin": "Wyatt",
-        "driver": "Larson",
-        "points": 65,
-        "position": 1
-      },
-      {
         "cousin": "Ryan",
         "driver": "Blaney",
+        "points": 60,
+        "position": 4
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Kyle Busch",
+        "points": 40,
+        "position": 6
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Keselowski",
         "points": 25,
-        "position": 2
+        "position": 9
       },
       {
         "cousin": "Tyler",
-        "driver": "Keselowski",
+        "driver": "Elliott",
         "points": 0,
-        "position": 17
+        "position": 10
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Logano",
+        "points": 0,
+        "position": 21
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Larson",
+        "points": 0,
+        "position": 32
       }
     ]
   }

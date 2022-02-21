@@ -29,7 +29,7 @@
 
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Nascar Racing</v-toolbar-title>
+      <v-toolbar-title>Nascar Racing Pool</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
@@ -50,6 +50,33 @@
           <g-link :to="item.cousin.toLowerCase()">{{ item.cousin }}</g-link>
         </template>
       </v-data-table>
+
+      <v-divider></v-divider>
+
+      <v-list>
+      <v-list-item
+          v-for="item in items"
+          :key="item.cousin"
+        >
+          <v-list-item-content>
+            <v-list-item-title>{{ item.cousin }} - {{ item.total }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+
+      <v-divider></v-divider>
+      <p class="pa-5">
+        <h4>Rules</h4>
+        <p>
+          <ol>
+            <li>Pick driver who gets official first - 75 points</li>
+            <li>Pick driver who gets higher than other picks - 60 points</li>
+            <li>2nd - 40 points</li>
+            <li>3rd - 25 points</li>
+            <li>Driver is in last 2 positions - 10 points</li>
+          </ol>
+        </p>
+      </p>
     </v-main>
   </v-app>
 
@@ -96,6 +123,10 @@ export default {
     const home = [{ name: 'Home', link: process.env.GRIDSOME_BASE_URL, icon: 'mdi-link' }]
     cousins = home.concat(cousins)
 
+    const itemsSorted = items.sort((x, y) => {
+      return x.total > y.total
+    });
+
     return {
       cousins,
       headers: [
@@ -110,7 +141,7 @@ export default {
           { text: 'Track', value: 'track' },
           { text: 'Date', value: 'date' },
         ],
-      items,
+      items: itemsSorted,
       drawer: null
     }
   },
