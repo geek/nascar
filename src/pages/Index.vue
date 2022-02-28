@@ -55,7 +55,7 @@
 
       <v-list>
       <v-list-item
-          v-for="item in items"
+          v-for="item in itemsSorted"
           :key="item.cousin"
         >
           <v-list-item-content>
@@ -124,10 +124,16 @@ export default {
     cousins = home.concat(cousins)
 
     const itemsSorted = items.sort((x, y) => {
-      return x.total > y.total
+      if (x.total > y.total) {
+        return -1
+      } else if (x.total < y.total) {
+        return 1
+      }
+
+      return 0
     });
 
-    return {
+  return {
       cousins,
       headers: [
           {
@@ -141,7 +147,8 @@ export default {
           { text: 'Track', value: 'track' },
           { text: 'Date', value: 'date' },
         ],
-      items: itemsSorted,
+      items,
+      itemsSorted,
       drawer: null
     }
   },
