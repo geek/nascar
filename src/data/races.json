@@ -1,5 +1,47 @@
 [
   {
+    "track": "Auto Club Speedway",
+    "date": "Feb 27, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Truex",
+        "points": 25,
+        "position": 13
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Keselowski",
+        "points": 0,
+        "position": 27
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Cindric",
+        "points": 40,
+        "position": 12
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Blaney",
+        "points": 0,
+        "position": 18
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 14
+      }
+    ]
+  },
+  {
     "track": "Daytona 500",
     "date": "Feb 20, 2022",
     "picks": [
