@@ -1,5 +1,89 @@
 [
   {
+    "track": "Phoenix Raceway",
+    "date": "March 13, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Byron",
+        "points": 0,
+        "position": 18
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 0,
+        "position": 26
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Logano",
+        "points": 40,
+        "position": 8
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Blaney",
+        "points": 60,
+        "position": 4
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 0,
+        "position": 34
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Hamlin",
+        "points": 25,
+        "position": 13
+      }
+    ]
+  },
+  {
+    "track": "Las Vegas Motor Speedway",
+    "date": "March 6, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Logano",
+        "points": 0,
+        "position": 14
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Harvick",
+        "points": 0,
+        "position": 12
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Larson",
+        "points": 60,
+        "position": 2
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Elliott",
+        "points": 25,
+        "position": 9
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Kyle Busch",
+        "points": 40,
+        "position": 4
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Hamlin",
+        "points": 0,
+        "position": 32
+      }
+    ]
+  },
+  {
     "track": "Auto Club Speedway",
     "date": "Feb 27, 2022",
     "picks": [
