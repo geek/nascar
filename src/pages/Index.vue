@@ -96,10 +96,13 @@ export default {
       let cousin = pick.cousin
       let total = 0
 
+      let average = 0
       races.forEach((race) => {
         race.picks.forEach((p) => {
           if (p.cousin == cousin) {
-            total += p.points
+            total += p.points;
+            average += p.position;
+            average = average / 2;
           }
         })
       })
@@ -107,6 +110,7 @@ export default {
       items.push({
         cousin,
         total,
+        average: Math.round(average),
         points: pick.points,
         current_pick: pick.driver,
         track: lastRace.track,
@@ -142,10 +146,10 @@ export default {
             value: 'cousin',
           },
           { text: 'Cumulative Points', value: 'total' },
+          { text: 'Average Finish', value: 'average' },
           { text: 'Race Points', value: 'points' },
-          { text: 'Driver', value: 'current_pick' },
-          { text: 'Track', value: 'track' },
-          { text: 'Date', value: 'date' },
+          { text: 'Last Driver', value: 'current_pick' },
+          { text: 'Last Track', value: 'track' },
         ],
       items,
       itemsSorted,

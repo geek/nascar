@@ -43,6 +43,13 @@
             <apexchart width="100%" type="bar" height="400px" :options="df.options" :series="df.series"></apexchart>
           </v-col>
         </v-row>
+        <v-row class="hidden-sm-and-down">
+          <v-col>
+            <apexchart width="100%" type="line" height="400px" :options="position.options" :series="position.series"></apexchart>
+          </v-col>
+          <v-col>
+          </v-col>
+        </v-row>
         <v-row class="hidden-md-and-up">
           <v-col>
             <apexchart width="100%" type="line" height="400px" :options="points.options" :series="points.series"></apexchart>
@@ -51,6 +58,11 @@
         <v-row class="hidden-md-and-up">
           <v-col>
             <apexchart width="100%" type="bar" height="400px" :options="df.options" :series="df.series"></apexchart>
+          </v-col>
+        </v-row>
+        <v-row class="hidden-md-and-up">
+          <v-col>
+            <apexchart width="100%" type="line" height="400px" :options="position.options" :series="position.series"></apexchart>
           </v-col>
         </v-row>
         </ClientOnly>
@@ -142,6 +154,31 @@ export default {
       },
       series: []
     }
+
+    let position = {
+      options: {
+        title: { text: "Finish Position"},
+        tooltip: {
+          theme: 'dark',
+        },
+        chart: {
+          toolbar: { show: false },
+          id: 'position',
+          foreColor: '#fff'
+        },
+        dataLabels: {
+          position: 'bottom'
+        },
+        legend: {
+          position: 'top'
+        },
+        xaxis: {
+          type: 'category'
+        }
+      },
+      series: []
+    }
+
     let cousins = lastRace.picks.map((pick) => {
       let cousin = pick.cousin
 
@@ -154,15 +191,22 @@ export default {
 
     let driverFrequency = {}
 
+    let series = []
     let items = races.map((race) => {
       let cousinPick = race.picks.find((pick) => {
         return pick.cousin.toLowerCase() === id
       }) || {}
 
       driverFrequency[cousinPick.driver] = (driverFrequency[cousinPick.driver] + 1) || 1;
-      points.series.push({
+
+      series.push({
         x: race.date,
         y: cousinPick.points
+      })
+
+      position.series.push({
+        x: race.date,
+        y: cousinPick.position
       })
 
       return {
@@ -173,6 +217,9 @@ export default {
         date: race.date
       }
     })
+
+    points.series = series.reverse();
+    position.series = position.series.reverse();
 
     let dfData = []
     let dfKeys = Object.keys(driverFrequency)
@@ -187,6 +234,7 @@ export default {
     df.series = [{ data: dfData }]
 
     points.series = [{ data: points.series }]
+    position.series = [{ data: position.series }]
     const home = [{ name: 'Home', link: process.env.GRIDSOME_BASE_URL, icon: 'mdi-home' }]
     cousins = home.concat(cousins)
 
@@ -194,6 +242,7 @@ export default {
       cousin,
       cousins,
       points,
+      position,
       driverFrequency,
       df,
       headers: [
@@ -211,7 +260,7 @@ export default {
       getColor (points) {
         if (points > 60) return 'red'
         else if (points > 50) return 'orange'
-        else if (points > 30) return 'yellow'
+        else if (points > 30) return 'green'
         else if (points > 20) return 'purple'
         else return 'brown'
       },

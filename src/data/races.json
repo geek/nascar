@@ -1,5 +1,47 @@
 [
   {
+    "track": "Atlanta Motor Speedway",
+    "date": "March 20, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Logano",
+        "points": 25,
+        "position": 9
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Elliott",
+        "points": 60,
+        "position": 6
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Blaney",
+        "points": 0,
+        "position": 17
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 33
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Truex",
+        "points": 40,
+        "position": 8
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Larson",
+        "points": 0,
+        "position": 30
+      }
+    ]
+  },
+  {
     "track": "Phoenix Raceway",
     "date": "March 13, 2022",
     "picks": [
