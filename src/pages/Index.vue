@@ -65,7 +65,9 @@
       </v-list>
 
       <v-divider></v-divider>
-      <p class="pa-5">
+      <p>Top Driver: {{ topDriver.driver }}</p>
+      <p>Points: {{ topDriver.points }}</p>
+      <p>
         <h4>Rules</h4>
         <p>
           <ol>
@@ -90,6 +92,7 @@ export default {
     title: 'Nascar Pool'
   },
   data() {
+    let driverPoints = {}
     let lastRace = races[0]
     let items = []
     let cousins = lastRace.picks.map((pick) => {
@@ -124,6 +127,24 @@ export default {
       }
     })
 
+    races.forEach((race) => {
+      race.picks.forEach((p) => {
+        driverPoints[p.driver] = driverPoints[p.driver] || 0;
+        driverPoints[p.driver] += p.points
+      })
+    })
+
+    console.log(driverPoints)
+    let topDriver = { driver: '', points: 0 }
+    let driverKeys = Object.keys(driverPoints)
+    for (let dk of driverKeys) {
+      const points = driverPoints[dk]
+      if (points > topDriver.points) {
+        topDriver.points = points
+        topDriver.driver = dk
+      }
+    }
+
     const home = [{ name: 'Home', link: process.env.GRIDSOME_BASE_URL, icon: 'mdi-link' }]
     cousins = home.concat(cousins)
 
@@ -139,6 +160,7 @@ export default {
 
   return {
       cousins,
+      topDriver,
       headers: [
           {
             text: 'Cousin',
