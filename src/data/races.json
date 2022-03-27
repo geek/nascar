@@ -1,5 +1,47 @@
 [
   {
+    "track": "Circuit of the Americas",
+    "date": "March 27, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Truex",
+        "points": 25,
+        "position": 7
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Allmendinger",
+        "points": 0,
+        "position": 33
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Larson",
+        "points": 0,
+        "position": 29
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Logano",
+        "points": 0,
+        "position": 31
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Elliott",
+        "points": 60,
+        "position": 4
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Blaney",
+        "points": 40,
+        "position": 6
+      }
+    ]
+  },
+  {
     "track": "Atlanta Motor Speedway",
     "date": "March 20, 2022",
     "picks": [
