@@ -1,5 +1,47 @@
 [
   {
+    "track": "Richmond Raceway VA",
+    "date": "April 3, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Byron",
+        "points": 60,
+        "position": 3
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Keselowski",
+        "points": 0,
+        "position": 13
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Blaney",
+        "points": 0,
+        "position": 7
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 9
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 25,
+        "position": 5
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Truex",
+        "points": 40,
+        "position": 4
+      }
+    ]
+  },
+  {
     "track": "Circuit of the Americas",
     "date": "March 27, 2022",
     "picks": [
