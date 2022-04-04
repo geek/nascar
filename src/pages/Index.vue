@@ -182,7 +182,7 @@ export default {
       getColor (points) {
         if (points > 800) return 'red'
         else if (points > 400) return 'orange'
-        else if (points > 200) return 'yellow'
+        else if (points > 200) return 'green'
         else if (points > 100) return 'purple'
         else return 'brown'
       },
