@@ -1,6 +1,48 @@
 [
   {
     "track": "Richmond Raceway VA",
+    "date": "April 17, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Logano",
+        "points": 60,
+        "position": 2
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Keselowski",
+        "points": 0,
+        "position": 11
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Bell",
+        "points": 0,
+        "position": 7
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Bowman",
+        "points": 25,
+        "position": 6
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 8
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Larson",
+        "points": 40,
+        "position": 4
+      }
+    ]
+  },
+  {
+    "track": "Richmond Raceway VA",
     "date": "April 3, 2022",
     "picks": [
       {

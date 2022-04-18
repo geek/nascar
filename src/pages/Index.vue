@@ -54,7 +54,7 @@
       <v-divider></v-divider>
 
       <v-list>
-      <v-list-item
+        <v-list-item
           v-for="item in itemsSorted"
           :key="item.cousin"
         >
@@ -65,6 +65,17 @@
       </v-list>
 
       <v-divider></v-divider>
+      Points from drivers:
+      <v-list>
+        <v-list-item
+          v-for="item in driverPoints"
+          :key="item.driver"
+        >
+          <v-list-item-content>
+            <v-list-item-title>{{ item.driver }} - {{ item.points }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
       <p>Top Driver: {{ topDriver.driver }}</p>
       <p>Points: {{ topDriver.points }}</p>
       <p>
@@ -161,6 +172,7 @@ export default {
   return {
       cousins,
       topDriver,
+      driverPoints,
       headers: [
           {
             text: 'Cousin',
