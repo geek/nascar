@@ -68,11 +68,11 @@
       Points from drivers:
       <v-list>
         <v-list-item
-          v-for="item in driverPoints"
-          :key="item.driver"
+          v-for="(value, name) in driverPoints"
+          :key="value"
         >
           <v-list-item-content>
-            <v-list-item-title>{{ item.driver }} - {{ item.points }}</v-list-item-title>
+            <v-list-item-title>{{ name }} - {{ value }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
