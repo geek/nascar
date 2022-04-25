@@ -1,5 +1,47 @@
 [
   {
+    "track": "Talladega Superspeedway",
+    "date": "April 24, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Logano",
+        "points": 0,
+        "position": 32
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 0,
+        "position": 22
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Blaney",
+        "points": 60,
+        "position": 11
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Wallace",
+        "points": 25,
+        "position": 17
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Keselowski",
+        "points": 0,
+        "position": 23
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Byron",
+        "points": 40,
+        "position": 15
+      }
+    ]
+  },
+  {
     "track": "Bristol Motor Speedway",
     "date": "April 17, 2022",
     "picks": [
