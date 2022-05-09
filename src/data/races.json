@@ -1,5 +1,89 @@
 [
   {
+    "track": "Darlington Raceway",
+    "date": "May 8, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 33
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Keselowski",
+        "points": 0,
+        "position": 34
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Logano",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Larson",
+        "points": 10,
+        "position": 36
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Bell",
+        "points": 40,
+        "position": 6
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Truex",
+        "points": 25,
+        "position": 24
+      }
+    ]
+  },
+  {
+    "track": "Dover International Speedway",
+    "date": "May 1, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Elliott",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Kyle Busch",
+        "points": 25,
+        "position": 7
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Harvick",
+        "points": 0,
+        "position": 9
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Larson",
+        "points": 40,
+        "position": 6
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Blaney",
+        "points": 0,
+        "position": 26
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Hamlin",
+        "points": 0,
+        "position": 21
+      }
+    ]
+  },
+  {
     "track": "Talladega Superspeedway",
     "date": "April 24, 2022",
     "picks": [
