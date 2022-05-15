@@ -1,5 +1,47 @@
 [
   {
+    "track": "Kansas Speedway",
+    "date": "May 15, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Bowman",
+        "points": 0,
+        "position": 9
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Keselowski",
+        "points": 0,
+        "position": 14
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 29
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Bell",
+        "points": 25,
+        "position": 5
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 60,
+        "position": 2
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Kyle Busch",
+        "points": 40,
+        "position": 3
+      }
+    ]
+  },
+  {
     "track": "Darlington Raceway",
     "date": "May 8, 2022",
     "picks": [
