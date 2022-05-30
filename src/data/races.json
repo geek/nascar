@@ -1,5 +1,89 @@
 [
   {
+    "track": "Charlotte Motor Speedway",
+    "date": "May 29, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Truex",
+        "points": 25,
+        "position": 12
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Wallace",
+        "points": 0,
+        "position": 28
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Kyle Busch",
+        "points": 40,
+        "position": 2
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Kurt Busch",
+        "points": 0,
+        "position": 31
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Hamlin",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 33
+      }
+    ]
+  },
+  {
+    "track": "Texas Motor Speedway",
+    "date": "May 23, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Larson",
+        "points": 10,
+        "position": 24
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 60,
+        "position": 10
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Byron",
+        "points": 40,
+        "position": 11
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Kurt Busch",
+        "points": 25,
+        "position": 13
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Elliott",
+        "points": 10,
+        "position": 23
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 21
+      }
+    ]
+  },
+  {
     "track": "Kansas Speedway",
     "date": "May 15, 2022",
     "picks": [
