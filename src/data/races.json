@@ -1,5 +1,47 @@
 [
   {
+    "track": "Sonoma Raceway",
+    "date": "June 12, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Logano",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 0,
+        "position": 9
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Blaney",
+        "points": 25,
+        "position": 4
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 21
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Kyle Busch",
+        "points": 40,
+        "position": 2
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Larson",
+        "points": 0,
+        "position": 12
+      }
+    ]
+  },
+  {
     "track": "Gateway Motorsports Park",
     "date": "June 5, 2022",
     "picks": [
