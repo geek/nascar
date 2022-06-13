@@ -5,39 +5,39 @@
     "picks": [
       {
         "cousin": "Ryan",
-        "driver": "Logano",
-        "points": 75,
-        "position": 1
+        "driver": "Kurt Busch",
+        "points": 0,
+        "position": 18
       },
       {
         "cousin": "Nathan",
-        "driver": "Bell",
+        "driver": "Hamlin",
         "points": 0,
-        "position": 9
+        "position": 31
       },
       {
         "cousin": "Wyatt",
-        "driver": "Blaney",
-        "points": 25,
-        "position": 4
+        "driver": "Chastain",
+        "points": 60,
+        "position": 7
       },
       {
         "cousin": "Tyler",
         "driver": "Elliott",
-        "points": 0,
-        "position": 21
+        "points": 40,
+        "position": 8
       },
       {
         "cousin": "Jesse",
-        "driver": "Kyle Busch",
-        "points": 40,
-        "position": 2
+        "driver": "Larson",
+        "points": 25,
+        "position": 15
       },
       {
         "cousin": "Jared",
-        "driver": "Larson",
+        "driver": "Truex",
         "points": 0,
-        "position": 12
+        "position": 26
       }
     ]
   },
