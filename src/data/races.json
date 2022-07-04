@@ -1,5 +1,89 @@
 [
   {
+    "track": "Road America",
+    "date": "July 3, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Cindric",
+        "points": 0,
+        "position": 7
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 0,
+        "position": 18
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Briscoe",
+        "points": 0,
+        "position": 14
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Larson",
+        "points": 25,
+        "position": 3
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Elliott",
+        "points": 40,
+        "position": 2
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Reddick",
+        "points": 75,
+        "position": 1
+      }
+    ]
+  },
+  {
+    "track": "Nashville Superspeedway",
+    "date": "June 16, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Elliott",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Logano",
+        "points": 0,
+        "position": 9
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Chastain",
+        "points": 0,
+        "position": 5
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Larson",
+        "points": 25,
+        "position": 4
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Blaney",
+        "points": 40,
+        "position": 3
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Hamlin",
+        "points": 0,
+        "position": 6
+      }
+    ]
+  },
+  {
     "track": "Sonoma Raceway",
     "date": "June 12, 2022",
     "picks": [
