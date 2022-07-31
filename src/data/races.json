@@ -1,5 +1,131 @@
 [
   {
+    "track": "Pocono Raceway",
+    "date": "July 24, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Blaney",
+        "points": 10,
+        "position": 33
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Keselowski",
+        "points": 0,
+        "position": 14
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Kyle Busch",
+        "points": 40,
+        "position": 2
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Hamlin",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 0,
+        "position": 5
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Elliott",
+        "points": 25,
+        "position": 3
+      }
+    ]
+  },
+  {
+    "track": "NHMS",
+    "date": "July 17, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 12
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Kurt Busch",
+        "points": 25,
+        "position": 10
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Byron",
+        "points": 0,
+        "position": 11
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Blaney",
+        "points": 0,
+        "position": 18
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Hamlin",
+        "points": 40,
+        "position": 6
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Truex",
+        "points": 60,
+        "position": 4
+      }
+    ]
+  },
+  {
+    "track": "Atlanta Motor Speedway",
+    "date": "July 10, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Byron",
+        "points": 0,
+        "position": 30
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Elliott",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Chastain",
+        "points": 40,
+        "position": 2
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Blaney",
+        "points": 25,
+        "position": 5
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 0,
+        "position": 13
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Bowman",
+        "points": 0,
+        "position": 32
+      }
+    ]
+  },
+  {
     "track": "Road America",
     "date": "July 3, 2022",
     "picks": [
