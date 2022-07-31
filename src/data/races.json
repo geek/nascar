@@ -1,5 +1,47 @@
 [
   {
+    "track": "Indianapolis Motor Speedway",
+    "date": "July 31, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Logano",
+        "points": 40,
+        "position": 6
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 25,
+        "position": 12
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 16
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Suarez",
+        "points": 0,
+        "position": 28
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Blaney",
+        "points": 0,
+        "position": 26
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Reddick",
+        "points": 75,
+        "position": 1
+      }
+    ]
+  },
+  {
     "track": "Pocono Raceway",
     "date": "July 24, 2022",
     "picks": [
