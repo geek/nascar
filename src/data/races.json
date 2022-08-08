@@ -1,6 +1,48 @@
 [
   {
     "track": "Indianapolis Motor Speedway",
+    "date": "August 7, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Logano",
+        "points": 40,
+        "position": 4
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 0,
+        "position": 26
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Kyle Busch",
+        "points": 10,
+        "position": 36
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Hamlin",
+        "points": 60,
+        "position": 3
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 11
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Larson",
+        "points": 25,
+        "position": 7
+      }
+    ]
+  },
+  {
+    "track": "Indianapolis Motor Speedway",
     "date": "July 31, 2022",
     "picks": [
       {
