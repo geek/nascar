@@ -1,5 +1,47 @@
 [
   {
+    "track": "Richmond Raceway VA",
+    "date": "August 15, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Hamlin",
+        "points": 60,
+        "position": 4
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Keselowski",
+        "points": 0,
+        "position": 15
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Truex",
+        "points": 25,
+        "position": 7
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Logano",
+        "points": 40,
+        "position": 6
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Chastain",
+        "points": 0,
+        "position": 18
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Larson",
+        "points": 0,
+        "position": 14
+      }
+    ]
+  },
+  {
     "track": "Indianapolis Motor Speedway",
     "date": "August 7, 2022",
     "picks": [
