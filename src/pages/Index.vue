@@ -116,7 +116,6 @@ export default {
           if (p.cousin == cousin) {
             total += p.points;
             average += p.position;
-            average = average / 2;
           }
         })
       })
@@ -124,7 +123,7 @@ export default {
       items.push({
         cousin,
         total,
-        average: Math.round(average),
+        average: Math.round(average/races.length),
         points: pick.points,
         current_pick: pick.driver,
         track: lastRace.track,
