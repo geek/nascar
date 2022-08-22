@@ -1,5 +1,47 @@
 [
   {
+    "track": "The Glen",
+    "date": "August 21, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Byron",
+        "points": 0,
+        "position": 22
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Larson",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 32
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Elliott",
+        "points": 40,
+        "position": 4
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Hamlin",
+        "points": 0,
+        "position": 20
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Reddick",
+        "points": 25,
+        "position": 7
+      }
+    ]
+  },
+  {
     "track": "Richmond Raceway VA",
     "date": "August 15, 2022",
     "picks": [
