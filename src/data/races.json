@@ -1,5 +1,47 @@
 [
   {
+    "track": "Daytona International Speedway",
+    "date": "August 27, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Blaney",
+        "points": 25,
+        "position": 15
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Harvick",
+        "points": 0,
+        "position": 20
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Wallace",
+        "points": 60,
+        "position": 11
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Logano",
+        "points": 40,
+        "position": 12
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 10,
+        "position": 37
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Hamlin",
+        "points": 0,
+        "position": 25
+      }
+    ]
+  },
+  {
     "track": "The Glen",
     "date": "August 21, 2022",
     "picks": [
