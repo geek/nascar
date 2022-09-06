@@ -1,5 +1,47 @@
 [
   {
+    "track": "Darlington Raceway",
+    "date": "September 5, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Larson",
+        "points": 0,
+        "position": 12
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Harvick",
+        "points": 0,
+        "position": 33
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Reddick",
+        "points": 40,
+        "position": 3
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Hamlin",
+        "points": 60,
+        "position": 2
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Byron",
+        "points": 0,
+        "position": 8
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Logano",
+        "points": 25,
+        "position": 4
+      }
+    ]
+  },
+  {
     "track": "Daytona International Speedway",
     "date": "August 27, 2022",
     "picks": [
