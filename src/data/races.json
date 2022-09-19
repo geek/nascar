@@ -1,5 +1,89 @@
 [
   {
+    "track": "Bristol Motor Speedway",
+    "date": "September 17, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Logano",
+        "points": 0,
+        "position": 27
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 34
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Harvick",
+        "points": 25,
+        "position": 10
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Blaney",
+        "points": 0,
+        "position": 30
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 60,
+        "position": 5
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Hamlin",
+        "points": 40,
+        "position": 9
+      }
+    ]
+  },
+  {
+    "track": "Kansas Speedway",
+    "date": "September 11, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Larson",
+        "points": 25,
+        "position": 8
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 26
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Logano",
+        "points": 0,
+        "position": 17
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Hamlin",
+        "points": 60,
+        "position": 2
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Bell",
+        "points": 40,
+        "position": 3
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Reddick",
+        "points": 10,
+        "position": 35
+      }
+    ]
+  },
+  {
     "track": "Darlington Raceway",
     "date": "September 5, 2022",
     "picks": [
