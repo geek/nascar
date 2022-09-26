@@ -1,5 +1,47 @@
 [
   {
+    "track": "Texas Motor Speedway",
+    "date": "September 25, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Bell",
+        "points": 0,
+        "position": 34
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Kyle Busch",
+        "points": 10,
+        "position": 36
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Larson",
+        "points": 40,
+        "position": 9
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Logano",
+        "points": 60,
+        "position": 2
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 32
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Harvick",
+        "points": 25,
+        "position": 19
+      }
+    ]
+  },
+  {
     "track": "Bristol Motor Speedway",
     "date": "September 17, 2022",
     "picks": [
