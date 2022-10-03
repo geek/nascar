@@ -1,5 +1,47 @@
 [
   {
+    "track": "Talladega Superspeedway",
+    "date": "October 2, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Bell",
+        "points": 25,
+        "position": 17
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Kyle Busch",
+        "points": 0,
+        "position": 20
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Blaney",
+        "points": 60,
+        "position": 2
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Logano",
+        "points": 0,
+        "position": 27
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Hamlin",
+        "points": 40,
+        "position": 5
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Reddick",
+        "points": 0,
+        "position": 28
+      }
+    ]
+  },
+  {
     "track": "Texas Motor Speedway",
     "date": "September 25, 2022",
     "picks": [
