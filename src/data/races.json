@@ -1,5 +1,47 @@
 [
   {
+    "track": "Circuit of the Americas",
+    "date": "October 9, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Reddick",
+        "points": 25,
+        "position": 5
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Allmendinger",
+        "points": 40,
+        "position": 3
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 22
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 0,
+        "position": 35
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Byron",
+        "points": 0,
+        "position": 17
+      }
+    ]
+  },
+  {
     "track": "Talladega Superspeedway",
     "date": "October 2, 2022",
     "picks": [
