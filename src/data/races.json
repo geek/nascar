@@ -1,5 +1,89 @@
 [
   {
+    "track": "Homestead-Miami Speedway",
+    "date": "October 23, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Bell",
+        "points": 0,
+        "position": 11
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Harvick",
+        "points": 25,
+        "position": 8
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Hamlin",
+        "points": 40,
+        "position": 7
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Larson",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 14
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Reddick",
+        "points": 10,
+        "position": 35
+      }
+    ]
+  },
+  {
+    "track": "Las Vegas Motor Speedway",
+    "date": "October 16, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Byron",
+        "points": 0,
+        "position": 13
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 0,
+        "position": 34
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Chastain",
+        "points": 40,
+        "position": 2
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Logano",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Blaney",
+        "points": 0,
+        "position": 28
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Reddick",
+        "points": 25,
+        "position": 6
+      }
+    ]
+  },
+  {
     "track": "Circuit of the Americas",
     "date": "October 9, 2022",
     "picks": [
