@@ -1,5 +1,47 @@
 [
   {
+    "track": "Martinsville Speedway",
+    "date": "October 30, 2022",
+    "picks": [
+      {
+        "cousin": "Ryan",
+        "driver": "Hamlin",
+        "points": 0,
+        "position": 6
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Bell",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Blaney",
+        "points": 25,
+        "position": 3
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 11
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Chastain",
+        "points": 0,
+        "position": 5
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Larson",
+        "points": 40,
+        "position": 2
+      }
+    ]
+  },
+  {
     "track": "Homestead-Miami Speedway",
     "date": "October 23, 2022",
     "picks": [
