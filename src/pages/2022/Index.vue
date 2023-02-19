@@ -96,7 +96,7 @@
 </template>
 
 <script>
-import races from '@/data/races2023.json'
+import races from '@/data/races2022.json'
 
 export default {
   metaInfo: {
@@ -133,7 +133,7 @@ export default {
       return {
         name: cousin,
         icon: 'mdi-link',
-        link: process.env.GRIDSOME_BASE_URL + '/' + cousin.toLowerCase()
+        link: process.env.GRIDSOME_BASE_URL + '/2022/' + cousin.toLowerCase()
       }
     })
 
@@ -157,8 +157,6 @@ export default {
 
     const home = [{ name: 'Home', link: process.env.GRIDSOME_BASE_URL, icon: 'mdi-link' }]
     cousins = home.concat(cousins)
-    const lastyear = [{ name: '2022 Results', link: process.env.GRIDSOME_BASE_URL + '/2022', icon: 'mdi-link' }]
-    cousins = lastyear.concat(cousins)
 
     const itemsSorted = items.sort((x, y) => {
       if (x.total > y.total) {

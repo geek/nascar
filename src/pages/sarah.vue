@@ -99,7 +99,7 @@ export default {
     title: 'Stats'
   },
   data() {
-    const id = 'jesse';
+    const id = 'sarah';
     let cousin = id[0].toUpperCase() + id.substr(1)
     let lastRace = races[0]
     let points = {

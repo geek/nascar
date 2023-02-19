@@ -92,7 +92,7 @@
 </template>
 
 <script>
-import races from '@/data/races2023.json'
+import races from '@/data/races2022.json'
 
 export default {
   metaInfo: {
@@ -185,7 +185,7 @@ export default {
       return {
         name: cousin,
         icon: 'mdi-link',
-        link: process.env.GRIDSOME_BASE_URL + '/' + cousin.toLowerCase()
+        link: process.env.GRIDSOME_BASE_URL + '/2022/' + cousin.toLowerCase()
       }
     })
 

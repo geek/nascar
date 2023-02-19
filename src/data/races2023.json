@@ -1,0 +1,50 @@
+[
+    {
+      "track": "Martinsville Speedway",
+      "date": "October 30, 2022",
+      "picks": [
+        {
+          "cousin": "Sarah",
+          "driver": "Hamlin",
+          "points": 0,
+          "position": 1
+        },
+        {
+          "cousin": "Ryan",
+          "driver": "Logano",
+          "points": 0,
+          "position": 1
+        },
+        {
+          "cousin": "Nathan",
+          "driver": "Harvick",
+          "points": 0,
+          "position": 1
+        },
+        {
+          "cousin": "Wyatt",
+          "driver": "Elliott",
+          "points": 0,
+          "position": 3
+        },
+        {
+          "cousin": "Tyler",
+          "driver": "Blaney",
+          "points": 0,
+          "position": 1
+        },
+        {
+          "cousin": "Jesse",
+          "driver": "Larson",
+          "points": 0,
+          "position": 1
+        },
+        {
+          "cousin": "Jared",
+          "driver": "Bowman",
+          "points": 0,
+          "position": 1
+        }
+      ]
+    }
+]

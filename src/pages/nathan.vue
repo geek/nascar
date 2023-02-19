@@ -92,7 +92,7 @@
 </template>
 
 <script>
-import races from '@/data/races.json'
+import races from '@/data/races2023.json'
 
 export default {
   metaInfo: {
