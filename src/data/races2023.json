@@ -1,50 +1,98 @@
 [
-    {
-      "track": "Daytona International Speedway",
-      "date": "February 19, 2023",
-      "picks": [
-        {
-          "cousin": "Sarah",
-          "driver": "Hamlin",
-          "points": 0,
-          "position": 17
-        },
-        {
-          "cousin": "Ryan",
-          "driver": "Logano",
-          "points": 60,
-          "position": 2
-        },
-        {
-          "cousin": "Nathan",
-          "driver": "Harvick",
-          "points": 0,
-          "position": 12
-        },
-        {
-          "cousin": "Wyatt",
-          "driver": "Elliott",
-          "points": 0,
-          "position": 38
-        },
-        {
-          "cousin": "Tyler",
-          "driver": "Blaney",
-          "points": 25,
-          "position": 8
-        },
-        {
-          "cousin": "Jesse",
-          "driver": "Larson",
-          "points": 0,
-          "position": 18
-        },
-        {
-          "cousin": "Jared",
-          "driver": "Bowman",
-          "points": 40,
-          "position": 5
-        }
-      ]
-    }
+  {
+    "track": "Auto Club Speedway",
+    "date": "February 26, 2023",
+    "picks": [
+      {
+        "cousin": "Sarah",
+        "driver": "Larson",
+        "points": 0,
+        "position": 29
+      },
+      {
+        "cousin": "Ryan",
+        "driver": "Truex",
+        "points": 0,
+        "position": 11
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Logano",
+        "points": 0,
+        "position": 10
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Suárez",
+        "points": 40,
+        "position": 4
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Hamlin",
+        "points": 25,
+        "position": 6
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Kyle Busch",
+        "points": 75,
+        "position": 1
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Bell",
+        "points": 0,
+        "position": 32
+      }
+    ]
+  },
+  {
+    "track": "Daytona International Speedway",
+    "date": "February 19, 2023",
+    "picks": [
+      {
+        "cousin": "Sarah",
+        "driver": "Hamlin",
+        "points": 0,
+        "position": 17
+      },
+      {
+        "cousin": "Ryan",
+        "driver": "Logano",
+        "points": 60,
+        "position": 2
+      },
+      {
+        "cousin": "Nathan",
+        "driver": "Harvick",
+        "points": 0,
+        "position": 12
+      },
+      {
+        "cousin": "Wyatt",
+        "driver": "Elliott",
+        "points": 0,
+        "position": 38
+      },
+      {
+        "cousin": "Tyler",
+        "driver": "Blaney",
+        "points": 25,
+        "position": 8
+      },
+      {
+        "cousin": "Jesse",
+        "driver": "Larson",
+        "points": 0,
+        "position": 18
+      },
+      {
+        "cousin": "Jared",
+        "driver": "Bowman",
+        "points": 40,
+        "position": 5
+      }
+    ]
+  }
 ]
